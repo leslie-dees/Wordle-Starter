@@ -21,8 +21,14 @@ for each in scrab_list:
     if len(each) == 5:
         scrab_words.append(each.lower())
 
-
-letter_count = scrab_words
+wordle_words = open("wordles.txt", "r").read()
+wordle_list = wordle_words.splitlines()
+wordlesss = []
+for each in wordle_list:
+    wordlesss.append(each[-5:].lower())
+    
+    
+letter_count = wordlesss
 
 letter_dict = {
     "a":0,
