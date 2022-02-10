@@ -2,6 +2,7 @@
 TDLR:
 CARES is the best starting word from the Scrabble dictionary.
 BARES is the best starting words from the full dictionary.
+SAINT & CRANE are tied for the best from the official Wordle dictionary
 
 Uses an input of a dictionary of strings to find the best possible wordle starting word. Dictionaries used for 2 examples are provided. 
 
